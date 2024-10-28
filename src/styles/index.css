@@ -52,3 +52,7 @@ body {
     background: #333; 
     border-radius: 4px;
 }
+
+input:focus {
+    color: #fff !important;
+}

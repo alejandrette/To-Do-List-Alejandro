@@ -36,7 +36,7 @@ const List = () => {
                 <ul className="list-task">
                     {listTask.map((task, index)=> (
                         <li key={index} className="task-item">
-                            <span>🍃</span> {task} {index}
+                            <span>🍃</span> {task}
                             <button className="btn btn-danger" onClick={() => {
                                 const newArr = listTask.filter(taskOut => taskOut != task);
                                 setListTask(newArr);

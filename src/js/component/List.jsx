@@ -43,6 +43,7 @@ const List = () => {
                             }}>X</button>
                         </li>
                     ))}
+                    {listTask.length === 0 ? 'No tasks, add tasks' : ''}
                 </ul>
                 <span className="item-task">Tasks: {listTask.length}</span>
             </div>

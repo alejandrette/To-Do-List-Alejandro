@@ -56,3 +56,9 @@ body {
 input:focus {
     color: #fff !important;
 }
+
+.item-task{
+    position: relative;
+    bottom: -40px;
+    left: -17%;
+}

@@ -44,6 +44,7 @@ const List = () => {
                         </li>
                     ))}
                 </ul>
+                <span className="item-task">Tasks: {listTask.length}</span>
             </div>
 		</div>
 	);

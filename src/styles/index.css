@@ -37,6 +37,11 @@ body {
 .btn {
     margin-left: auto;
     margin-right: 10%;
+    visibility: hidden;
+}
+
+li:hover .btn{
+    visibility: visible;
 }
 
 .list-task::-webkit-scrollbar {

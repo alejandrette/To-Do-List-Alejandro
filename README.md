@@ -1,42 +1,101 @@
-# Hello World with React boilerplate
+# ✅ To-Do List App
 
-Start coding a react application
+**To-Do List App** es una aplicación interactiva desarrollada con **React** que permite a los usuarios gestionar tareas de manera eficiente. Este proyecto se centra en el aprendizaje de React y la implementación de funciones clave como añadir, listar y eliminar tareas. Es una herramienta sencilla pero poderosa para organizar actividades diarias.
 
-> If you are working locally instead of using codespaces or gitpod, please follow [local installation steps](#local-installation-skip-if-you-are-working-on-codespaces-or-gitpod) and come back to this part of the readme.
+---
 
-## How to start coding?
+## 🌟 Características
 
-- Install the packages with `$ npm install`.
-- Run the webpack server with `$ npm run start`
+- **Añadir Tareas:** Permite a los usuarios añadir tareas con facilidad.
+- **Lista Dinámica:** Muestra las tareas actuales de manera clara y organizada.
+- **Eliminar Tareas:** Los usuarios pueden eliminar tareas individuales con un solo clic.
+- **Interfaz Minimalista:** Diseño simple y fácil de usar, enfocado en la funcionalidad.
 
-You can update the `styles/index.css` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
+---
 
-## Local Installation (skip if you are working on codespaces or gitpod)
+## 🛠️ Tecnologías Utilizadas
 
-Download the boilerplate using git
+- **React:** Biblioteca principal para construir la interfaz de usuario.
+- **Bootstrap:** Utilizado para un diseño limpio y responsivo.
+- **CSS:** Estilos personalizados para mejorar la apariencia de la aplicación.
+- **Fetch API:** Para gestionar las operaciones de datos con una API simulada.
 
+---
+
+## 🚀 Instalación
+
+1. Clona este repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/alejandrette/To-Do-List-Alejandro.git
+   ```
+2. Accede al directorio del proyecto:
+   ```bash
+   cd To-Do-List-Alejandro
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+4. Inicia la aplicación:
+   ```
+   npm start
+   ```
+
+---
+
+## 📚 Uso
+
+1. Inicia la aplicación en tu navegador tras ejecutar ```npm start```.
+2. Ingresa una tarea en el campo de entrada y presiona Enter o haz clic en el botón correspondiente para añadirla.
+3. Visualiza la lista de tareas actualizadas en tiempo real.
+4. Haz clic en el ícono de eliminar junto a cada tarea para eliminarla de la lista.
+
+---
+
+## 📁 Estructura del Proyecto
+
+- /src:
+  - components/: Componentes reutilizables como el campo de entrada y la lista de tareas.
+  - App.js: Componente principal que organiza la funcionalidad y estructura de la aplicación.
+  - index.js: Punto de entrada para React.
+
+---
+
+## 🔮 Funcionalidades Futuras
+
+- 📆 Añadir fechas límite para cada tarea.
+- 📌 Posibilidad de marcar tareas como completadas.
+- 🌟 Implementar categorías o etiquetas para organizar las tareas.
+- 🔔 Notificaciones para tareas pendientes.
+
+---
+
+## 🤝 Contribuciones
+
+¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar este proyecto:
+1. Haz un fork del repositorio.
+2. Crea una nueva rama para tus cambios:
+```bash
+git checkout -b feature/nueva-funcionalidad
 ```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
+3. Realiza tus cambios y haz commit:
+```bash
+git commit -m "Descripción de tus cambios"
 ```
+4. Sube tus cambios a tu repositorio:
+```bash
+git push origin feature/nueva-funcionalidad
+```
+5. Abre un Pull Request en el repositorio original.
 
-## Publish your website!
+---
 
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
+## 👤 Autor
 
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
+Este proyecto fue desarrollado por @alejandrette como parte de los ejercicios de aprendizaje en 4Geeks Academy. Si tienes preguntas o sugerencias, no dudes en contactarme.
 
-## Other features
+---
 
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
+## 📜 Licencia
 
-### Contributors
-
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
-
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
+Este proyecto está bajo la licencia MIT. Puedes usarlo, modificarlo y distribuirlo libremente.
